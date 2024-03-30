@@ -55,3 +55,6 @@ rank_bm25
 
 #4bit
 bitsandbytes==0.43.0
+
+# ragas
+ragas
