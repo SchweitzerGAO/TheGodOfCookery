@@ -121,11 +121,12 @@ def load_model():
                                                  device_map="auto",
                                                  quantization_config=quantization_config).eval()
     tokenizer = AutoTokenizer.from_pretrained(llm_model_path, trust_remote_code=True)
-    llm = CookMasterLLM(model, tokenizer)
     model.generation_config.max_length = generation_config.max_length
     model.generation_config.top_p = generation_config.top_p
     model.generation_config.temperature = generation_config.temperature
     model.generation_config.repetition_penalty = generation_config.repetition_penalty
+    llm = CookMasterLLM(model, tokenizer)
+    
     print(model.generation_config)
     print("完成本地模型的加载")
     return model, tokenizer, llm

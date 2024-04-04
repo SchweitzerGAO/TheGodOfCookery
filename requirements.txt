@@ -1,4 +1,4 @@
-torch-scatter
+# torch-scatter
 
 #RAG
 langchain==0.1.4
@@ -10,7 +10,7 @@ chromadb==0.4.15
 sentence-transformers==2.2.2
 unstructured==0.10.30
 markdown==3.3.7
-pysqlite3-binary
+# pysqlite3-binary
 
 modelscope==1.9.5
 transformers==4.35.2
@@ -34,22 +34,22 @@ google-auth>=1.0.1
 tiktoken==0.6.0
 
 # text2image
-zhipuai
-diffusers
+# zhipuai
+# diffusers
 
-#speech
-openai-whisper==20231117
-streamlit-audiorecorder==0.0.4
-funasr==1.0.5  #paraformer
-torchaudio
+# #speech
+# openai-whisper==20231117
+# streamlit-audiorecorder==0.0.4
+# funasr==1.0.5  #paraformer
+# torchaudio
 
-#markdown
-OpenCC==1.1.6
-jieba==0.39
+# #markdown
+# OpenCC==1.1.6
+# jieba==0.39
 
 #Enhanced RAG
 BCEmbedding==0.1.3
-faiss-gpu==1.7.2
+# faiss-gpu==1.7.2
 dashscope
 rank_bm25
 
