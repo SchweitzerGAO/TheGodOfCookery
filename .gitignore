@@ -7,3 +7,5 @@ whisper_app/__pycache__/
 __pycache__
 data
 tran_dataset_single_0
+logs
+*.drawio

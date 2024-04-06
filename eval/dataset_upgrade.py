@@ -21,18 +21,12 @@ Stage 3: rewrite the questions
 '''
 Stage 4: alter the questions
 '''
-with open('./eval_dataset_test.json','r',encoding='utf-8') as f:
-    data = json.load(f)
-with open('./questions_new.txt','r',encoding='utf-8') as f:
-    questions = f.readlines()
+# with open('./eval_dataset_test.json','r',encoding='utf-8') as f:
+#     data = json.load(f)
+# with open('./questions_new.txt','r',encoding='utf-8') as f:
+#     questions = f.readlines()
 
-# ori_questions = [d['conversation'][0]['input'] for d in data]
-
-# for q in ori_questions:
-#     if '\n' in q:
-#         print(q)
-
-for d, q in zip(data, questions):
-    d['conversation'][0]['input'] = q
-with open('./eval_dataset_test_new.json','w',encoding='utf-8') as f:
-    json.dump(data, f,ensure_ascii=False, indent=4)
+# for d, q in zip(data, questions):
+#     d['conversation'][0]['input'] = q
+# with open('./eval_dataset_test_new.json','w',encoding='utf-8') as f:
+#     json.dump(data, f,ensure_ascii=False, indent=4)
