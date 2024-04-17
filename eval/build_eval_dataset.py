@@ -24,7 +24,7 @@ def filter(texts: List[str]):
     filtered = []
     for text in texts:
         text = text.strip()
-        if text != '' and not '百类蔬菜营养食谱' in text:
+        if text != '' and not '百类蔬菜营养食谱' in text and '原料' in text and '制作方法' in text:
             filtered.append(text)
     return filtered
 
