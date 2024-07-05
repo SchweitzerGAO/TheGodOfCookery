@@ -15,6 +15,10 @@
 
 这是一个通用的RAG模型评测框架， 该框架可以使用多种不同的metric评估附加RAG的LLM生成的答案，适用范围较为广泛。其中常用的metric包括：
 
+- 忠实度(faithfulness)
+
+将答案拆分成多个statement，利用大模型评估检索出的上下文是否可以推断出statement，忠实度分数 =  可以推断出的statement个数 / 总statement个数
+
 - 
 
 ## 3. 评估方法

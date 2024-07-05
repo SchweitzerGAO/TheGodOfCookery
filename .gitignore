@@ -4,3 +4,5 @@ rag/__pycache__
 tools/transformers/__pycache__
 whisper_app/__pycache__/
 .github
+eval/__pycache__
+tran_dataset_single_0
