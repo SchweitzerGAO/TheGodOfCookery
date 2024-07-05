@@ -5,4 +5,8 @@ tools/transformers/__pycache__
 whisper_app/__pycache__/
 .github
 eval/__pycache__
+tran_dataset_single_0__pycache__
+data
 tran_dataset_single_0
+logs
+*.drawio
